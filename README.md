@@ -22,7 +22,7 @@ Remember to replace `terminal-msg` with `.terminal-msg` if you renamed it.
 ## Custom messages
 edit `list`
 
-## Coming <s>soon</s> eventually (maybe)
+## Coming <s>soon</s> eventually:
 Message frequency (chance to get message)  
 Colours  
 
