@@ -1,0 +1,5 @@
+You can create your own custom messages in ./list
+If you are seeing this, you probably haven't edited ./list
+You can edit ./list and add your own custom messages, you know.
+It might be a good idea to edit ./list
+Don't append empty lines to ./list as you may get that empty line as a message.
