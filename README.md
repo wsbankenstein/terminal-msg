@@ -32,7 +32,7 @@ A message is, on average, sent every `./freq` commands.
 You can modify `./freq`. The default value is `2`.
 
 ## Coming <s>soon</s> eventually:
-Message frequency (chance to get message)  
+<s>Message frequency (chance to get message)</s> DONE  
 Colours  
 
 ---
