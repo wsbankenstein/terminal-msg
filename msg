@@ -5,4 +5,4 @@ mapfile -t a < ./list
 # length="${#a[@]}"
 # index=$(( $RANDOM % ${#a[@]} ))
 echo "${a[$(( $RANDOM % ${#a[@]} ))]}"
-cd $pwd || exit
+cd $pwd
