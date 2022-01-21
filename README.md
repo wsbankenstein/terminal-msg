@@ -16,8 +16,8 @@ Append the following to your `.bashrc`:
 ```
 trap '~/terminal-msg/msg' DEBUG
 ```
-Remember to replace `terminal-msg` with `.terminal-msg` if you renamed it.
-(Note: this must be *at the very end* of `.bashrc`, otherwise you will get random messages on launch.)
+Remember to replace `terminal-msg` with `.terminal-msg` if you renamed it.  
+(Note: this must be **at the very end** of `.bashrc`, otherwise you will get random messages on launch.)
 
 ## Custom messages
 edit `list`
