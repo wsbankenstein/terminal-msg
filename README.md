@@ -20,7 +20,16 @@ Remember to replace `terminal-msg` with `.terminal-msg` if you renamed it.
 (Note: this must be **at the very end** of `.bashrc`, otherwise you will get random messages on launch.)
 
 ## Custom messages
-edit `list`
+edit `./list`
+
+## Message frequency
+A message is, on average, sent every `./freq` commands. 
+ - If `./freq` contains `2`, you should get a message (on average) for every other command.  
+ - If `./freq` contains `5`, you'll get a message (on average) for every 5 commands.  
+ - If `./freq` contains `1`, you'll get a message for every command.  
+ - If `./freq` contains `0`, it's probably going to crash.  
+
+You can modify `./freq`. The default value is `2`.
 
 ## Coming <s>soon</s> eventually:
 Message frequency (chance to get message)  
