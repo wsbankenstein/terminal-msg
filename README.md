@@ -6,18 +6,18 @@ Inspired by *(read: a remake of)* [this wonderful thing by umanochiocciola.](htt
 ## Installation
 **(I recommend putting it in ~/.local)**  
 (also you need git installed)  
-```bash
-git clone https://github.com/wsbankenstein/terminal-msg.git
+```sh
+git clone https://codeberg.org/bankenstein/terminal-msg.git
 cd terminal-msg
 # rm -rf {LICENSE, README.md} # (if you need the storage space)
 # cd ..; mv -i terminal-msg .terminal-msg # (if you want it hidden)
 ```
-Append the following to your `.bashrc`:  
+Append the following to your `.(bash/zsh/whatever)rc`:  
 ```
 trap '~/.local/terminal-msg/msg' DEBUG
 ```
 Remember to replace `terminal-msg` with `.terminal-msg` if you renamed it (or with any other path if you installed it anywhere else).  
-(Note: this must be **at the very end** of `.bashrc`, otherwise you will get random messages on launch.)
+(Note: this must be **at the very end** of `.(bash/zsh/whatever)rc`, otherwise you will get random messages on launch.)
 
 ## Custom messages
 edit `./list`
