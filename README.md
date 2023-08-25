@@ -37,7 +37,7 @@ You can modify `./freq`. The default value is `2`.
 
 ---
 
-Feel free to get in touch `(Bankenstein#9377, u/Gaevleflammen, or Ye Olde Pull Request)` and contribute ideas!
+Feel free to get in touch `(@bankenstein:matrix.org, bankenstein@proton.me, or Ye Olde Pull Request)` and contribute ideas!
 
 ---
 
